@@ -1,7 +1,30 @@
-{% extends "layout.html" %} {% block content %}
-<div class="index-btn">
-  <form action="/home">
-    <input class="btn" type="submit" value="Get Started" />
-  </form>
-</div>
-{% endblock content %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/main.css" />
+    <title>First</title>
+  </head>
+  <body>
+    <div class="flex_index">
+      <div class="container_index">
+        <div class="index_text itext1">
+          <p>MAKE MON</p>
+          <p>FROM</p>
+        </div>
+        <div class="index_text itext2">
+          <p>EY</p>
+          <p>WASTE</p>
+        </div>
+      </div>
+      <div class="index-btn">
+        <form action="/home">
+          <input class="btn" type="submit" value="Get Started" />
+        </form>
+        <img class="ind_img" src="/static/images/flwr.png" alt="flwr" />
+      </div>
+    </div>
+  </body>
+</html>
