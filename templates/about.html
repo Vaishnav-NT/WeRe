@@ -1,5 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>About us</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+         
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+    body{ 
+    width: 98%; 
+    height: 100%; 
+    margin: 0; }
 
-{% extends "layout.html" %}
-{% block content %}
-    <h1>About Page</h1>
-{% endblock content %}
+    a{ 
+    text-decoration: none; 
+    background-color: transparent;
+    color:RGB(0,0,0);
+    } 
+    
+    .button{
+     background-color: #ffffff; 
+  border: none;
+  color: green;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 15px 15px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+#banner_content{
+    position: relative;
+    margin-top: 12%;  
+    margin-bottom: 10%;
+    background-color: rgba(65, 165, 78, 0.253); 
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    float: right;
+}
+    #content{
+    position: relative;
+    padding-top: 3%;
+    padding-bottom: 6%;
+    padding-left: 3%; 
+    padding-right: 6%;
+    margin-top: 12%;  
+    margin-bottom: 10%;
+    background-color: rgb(233, 233, 233); 
+    width: 500px;
+    height: 450px;
+    overflow: hidden;
+}
+
+#logo{
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%; 
+    margin-top: 12%;  
+    margin-bottom: 10%;
+    background-color: rgb(170, 170, 170); 
+    width: 300px;
+    height: 320px;
+    overflow: hidden;
+}
+
+#banner-image{
+    padding-top: 75px;
+    padding-bottom: 0px;
+    margin-bottom: 0px; 
+    text-align:center; 
+    color: #f8f8f8; 
+    background: url(https://www.thegeospatial.in/uploads/images/image_750x_5ea045b69e65e.jpg) no-repeat center;
+    
+}
+</style>    
+<body style="background-color:RGB(157, 242, 180)";>
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        </button>
+                   <a href="home.html" class="navbar-brand "> NAME</a>
+        </div>
+   
+    <ul class="nav navbar-nav navbar-right">
+        <a href="layout.html"><button class="button "><span class="glyphicon glyphicon-user"></span></button></a>
+    </ul>   
+    <div class="container">
+        <div id=banner_content style="position:absolute;left: 300px;bottom: -50px;"></div>
+    </div>    
+    <div class="container">
+            <div id=content style="position:absolute;left: 600px;bottom: -50px;">
+            <h3 style="color: rgb(0, 160, 0);position:absolute;font-size:xx-large; font-weight: bold;">About Us</h3> 
+            <br><br><br>
+            <p>India's biggest shortcoming is its poor waste management infrastructure and the massive gender inequality. Although, people are aware of waste disposal, but they are not aware of the different methods that are available to them to put their knowledge to practice. It is estimated that in 30 years the amount of waste is to double and we are currently facing the crisis of landfill overflow. Even the waste in our own households does not undergo any treatment or recycling. </p>
+            <p>This insprired our young minds to build a this system that unite these problems and creating an effective solution out of it. We aim to promote women empowerment and lead a movement for the sustainability of the planet. We intend on reaching the very deepest hearts of the country and provide them with service of both job oppurtunities and creating a cleaner and healthier land to live. </p>
+            </div>
+        </div>
+        <div class="container">
+            <div id=logo style="position:absolute;left: 250px;bottom: 0px;">LOGO</div>
+        </div>   
+        
+            
+                   
+              
+             
+ </body>
+</html>
