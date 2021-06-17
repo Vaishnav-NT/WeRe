@@ -107,18 +107,32 @@ a.article-title:hover {
   align-items: center;
 }
 
-.btn {
+.btn,
+.btn_ui {
   background-color: #3dc943;
   color: #fff;
-  padding: 0.7rem 5rem;
   border-radius: 9px;
-  font-size: 1.3rem;
   border: 0;
-  box-shadow: 4px 4px 12px #888888;
-  position: relative;
-  top: 8rem;
+  box-shadow: 2px 2px 8px #888888;
 }
 
+.btn {
+  padding: 0.4rem 2.5rem;
+  font-size: 1rem;
+}
+
+.btn_ui {
+  position: relative;
+  top: 8rem;
+  font-size: 1.3rem;
+  padding: 0.7rem 5rem;
+}
+
+.signup {
+  margin-top: 15px;
+}
+
+.btn_ui:hover,
 .btn:hover {
   background-color: #038308;
 }
@@ -150,8 +164,4 @@ a.article-title:hover {
   height: 10rem;
   width: 50vw;
   opacity: 30%;
-}
-
-.signup {
-  margin-bottom: 20px;
 }
