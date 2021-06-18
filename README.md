@@ -10,7 +10,6 @@
   - [The architecture](#the-architecture)
   - [Project roadmap](#project-roadmap)
   - [Demo video](#demo-video)
-  - [Live demo](#live-demo)
   - [Built with](#built-with)
 
 
@@ -98,12 +97,6 @@ The project currently does the following things.
 ## Demo video
 
 You can watch the demo video here.
-
-
-## Live demo
-
-You can find a running system to test at [callforcode.mybluemix.net](https://were.eu-gb.cf.appdomain.cloud/).
-
 
 ## Built with
 
