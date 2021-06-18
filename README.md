@@ -96,7 +96,7 @@ The project currently does the following things.
 
 ## Demo video
 
-You can watch the demo video here.
+You can watch the demo video here. https://youtu.be/adCAYVdu4ZQ
 
 ## Built with
 
