@@ -17,7 +17,9 @@
   - [Contributing](#contributing)
   - [Authors](#authors)
 
-## Short description
+
+
+## Long description
 
 ### What's the problem?
   In India, 77% of waste is disposed of in open dumps, 18% is composted and just 5% is recycled. Among the 77%, a certain percentage of the waste is recyclable but is mixed with common trash. We are currently facing the crisis of landfill overflow and increasing waste production. 
@@ -25,24 +27,11 @@ But a change in this appraisal can be made if we practice segregating waste inst
 Especially in villages, there is no mechanism or service by the administration to recycle or collect trash. 
 As a result, many villages just innocently burn it or dump it in the open, despite numerous establishments and industries that take in and create recycled products. 
 
-
-### The key idea
-
-
-## The architecture
-
-
-1. The user navigates to the site and uploads a video file.
-2. Watson Speech to Text processes the audio and extracts the text.
-3. Watson Translation (optionally) can translate the text to the desired language.
-4. The app stores the translated text as a document within Object Storage.
-
-## Long description
-
-### What we are building: 
+####What we are building: 
 
 Our goal is to reach every household, providing them with the service of making use of their recyclable waste. We are building a network that connects ordinary citizens to industries, by collecting and transporting recyclable waste to the establishments that require them.
-Users of our system include      the residents in the local region, the volunteers for the job and buyers/industries.
+Users of our system include      the residents in the local region, the volunteers for the job and buyers/industries
+
 
 #### Role of residential users -
   The residents of the locality must register themselves through the website. They are obliged to separate recyclable wastes such as paper, plastic, and textiles. Volunteers/collectors shall set a limit on the amount of waste they can handle. Once that limit is reached in a household, the user can send an alert message to the collector.
@@ -54,38 +43,72 @@ Also since India is behind on part-time job culture, students of age 16 and abov
 Women are also encouraged to take on transportation duties from the assigned locality to the industries.
 Working hours and regions of action shall be flexible and friendly to the volunteers. 
 
-#### Buyers -
+#### Role of Buyers/Industries -
   These involve the establishments that work on creating recycled products. Heaps of segregated waste are transported from localities to these industries. 
 
-
+## The key idea and its advantages
+  We have come up with a platform where people could get rid of recyclable waste hassle free and also provide What we would like to acheive through this is to create a self sustaining platform that would be benificial to both the users directly as well as help save the enviornment at the same time. A model like this gives us many advantages like lessen the need to set up infrastructure and handle  logistics and gives us the power to expand freely and efficeintly in a manner which is not possible for many.It also offers the customer a great degree of felxibilty in almost every aspect you can think of, be it collection or delivery.We want these process to be carried out as a part of their normal routine without consuming any additional resources or time. That is where the real strength of our approach lies.
+  
 ### What problems are being solved:
 
 People now have a medium to reduce the amount of wastage they produce and burn on a daily basis. Recyclable wastes are put to use. Overflowing landfills are avoided.
 Women are given job opportunities and they help in sustaining the environment. Young adults can take action on recycling and have an opportunity to earn via part-time jobs.
 Once every household builds up the habit of recycling, we are one step towards waste-reduction and tackling climate change.
 
+## The architecture
+
+
+1. The user navigates to the site and logs in.
+2. They can creates an account with us if they havent done so already.
+3. The user selects the type of material and clicks on raise pickup.
+4. This information is provided to volunteers nearby who collects it.
+5. The local voluteers can raise then pickup when they have sufficient items.
+6. Volunteers registered as driver to haul shipments would then come collect this and take it to recycling centers directly.
+
+*All users would be able to earn a small amount for thier efforts to save earth
+*We wish to offer maximum flexibily in all the steps mentioned above to make is as convenient as possible
+
 ## Project roadmap
 
 The project currently does the following things.
 
-- Feature 1
-- Feature 2
-- Feature 3
+- A user(residents) could sell the recyclable waste they have hassle free with no work whatsoever
+- A user(mainly college students and local women organization) could volunteer to help in 
+  getting the items from house to plants and earn an income in doing so
+- A user(Recycling companies) coild also buys these 
 
-It's in a free tier IBM Cloud Kubernetes cluster. In the future we plan to run on Red Hat OpenShift, for example.
+*We currently take plastics and old garments
 
-See below for our proposed schedule on next steps after Call for Code 2021 submission.
+- We identified the needs of the primary target group for our projet and also the problems they face 
+- We decided to create the product as a web app with flask to handle the backend
+- We designed an interactive easy to use User Interface keeping in mind accessibilty
+- Developed the basic backend structure
+- Set up a mysql database
+- Added the user login mechanism
+- Repackaged the entire application
+- Prepare to deploy to cloud (configured the app)
+- Create the needed resources on ibm cloud
+- Deployed the application
+- Fixed all bugs 
+- Completed basic testing
+- Supplied to project to a few friends and made a few changes based on their feedback
+- Deployed the final iteration application
+ 
 
 ## Demo video
+
+You can watch the demo video here.
+
 
 ## Live demo
 
 You can find a running system to test at [callforcode.mybluemix.net](https://were.eu-gb.cf.appdomain.cloud/).
 
+
 ## Built with
 
-- [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
 - [IBM Cloud Foundry](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - The multi-cloud platform used to support the development, management and continuous delivery of web applications.
+- [MySQL Database](https://www.mysql.com/) - The database used
 - [Flask(https://flask.palletsprojects.com/en/2.0.x/) - The python based web framework that we used
 - [Bootstrap](https://getbootstrap.com/) - The open source front end framework used
 
