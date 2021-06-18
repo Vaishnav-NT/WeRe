@@ -29,9 +29,6 @@ As a result, many villages just innocently burn it or dump it in the open, despi
 ### The key idea
 
 
-## Demo video
-
-
 ## The architecture
 
 
@@ -79,18 +76,19 @@ It's in a free tier IBM Cloud Kubernetes cluster. In the future we plan to run o
 
 See below for our proposed schedule on next steps after Call for Code 2021 submission.
 
+## Demo video
+
 ## Live demo
 
-You can find a running system to test at [callforcode.mybluemix.net](http://callforcode.mybluemix.net/).
+You can find a running system to test at [callforcode.mybluemix.net](https://were.eu-gb.cf.appdomain.cloud/).
 
 ## Built with
 
 - [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
-- [IBM Cloud Functions](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - The compute platform for handing logic
-- [IBM API Connect](https://cloud.ibm.com/catalog?search=api%20connect#search_results) - The web framework used
-- [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-- [Maven](https://maven.apache.org/) - Dependency management
-- [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+- [IBM Cloud Foundry](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - The multi-cloud platform used to support the development, management and continuous delivery of web applications.
+- [Flask(https://flask.palletsprojects.com/en/2.0.x/) - The python based web framework that we used
+- [Bootstrap](https://getbootstrap.com/) - The open source front end framework used
+
 
 ## Contributing
 
