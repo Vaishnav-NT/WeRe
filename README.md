@@ -89,13 +89,3 @@ You can find a running system to test at [callforcode.mybluemix.net](https://wer
 - [Flask(https://flask.palletsprojects.com/en/2.0.x/) - The python based web framework that we used
 - [Bootstrap](https://getbootstrap.com/) - The open source front end framework used
 
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Authors
-
-<a href="https://github.com/Call-for-Code/Project-Sample/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=Call-for-Code/Project-Sample" />
-</a>
