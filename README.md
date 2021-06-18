@@ -96,8 +96,9 @@ The project currently does the following things.
 
 ## Demo video
 
-You can watch the demo video here. https://youtu.be/adCAYVdu4ZQ
+You can watch the demo video here - https://youtu.be/adCAYVdu4ZQ
 
+UI Design link - https://www.figma.com/file/loEGZMKISFUN1mdPfdWcq0/Ksum-Hackathon?node-id=0%3A1
 ## Built with
 
 - [IBM Cloud Foundry](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - The multi-cloud platform used to support the development, management and continuous delivery of web applications.
