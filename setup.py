@@ -1,6 +1,3 @@
-"""
-Hello World app for running Python apps on Bluemix
-"""
 
 # Always prefer setuptools over distutils
 from setuptools import setup, find_packages
