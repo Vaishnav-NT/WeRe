@@ -58,7 +58,7 @@
 
 #logo{
     position: relative;
-    padding-top: 6%;
+    padding-top: 0;
     padding-bottom: 6%; 
     margin-top: 12%;  
     margin-bottom: 10%;
@@ -68,6 +68,7 @@
     overflow: hidden;
 }
 
+
 #banner-image{
     padding-top: 75px;
     padding-bottom: 0px;
@@ -75,15 +76,22 @@
     text-align:center; 
     color: #f8f8f8; 
     background: url(https://www.thegeospatial.in/uploads/images/image_750x_5ea045b69e65e.jpg) no-repeat center;
-    
 }
+
+.logo{
+ display: block; 
+max-width: 100%;
+height: auto;
+}    
+
 </style>    
 <body style="background-color:RGB(157, 242, 180)";>
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         </button>
-                   <a href="home.html" class="navbar-brand "> NAME</a>
+                   <a href="home.html" class="navbar-brand "> <img src="../static/images/WeRe.png" alt="Home" class="logo" width="30" height="30"></a>
+                   <a href="home.html" class="navbar-brand "> <h4 style="color: rgb(0, 160, 0);position:absolute;left: 50px;font-weight: bold;">WeRe</h4></a>
         </div>
    
     <ul class="nav navbar-nav navbar-right">
@@ -101,7 +109,8 @@
             </div>
         </div>
         <div class="container">
-            <div id=logo style="position:absolute;left: 250px;bottom: 0px;">LOGO</div>
+            <div id=logo style="position:absolute;left: 250px;bottom: 0px;">
+                <img src="../static/images/WeRe.png" alt="Logo" class="logo" width="300" height="320"></div>
         </div>   
         
             
