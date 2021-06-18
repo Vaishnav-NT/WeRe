@@ -3,19 +3,15 @@
 
 ## Contents
   - [Contents](#contents)
-  - [Short description](#short-description)
-    - [What's the problem?](#whats-the-problem)
-    - [How can technology help?](#how-can-technology-help)
-    - [The idea](#the-idea)
-  - [Demo video](#demo-video)
-  - [The architecture](#the-architecture)
   - [Long description](#long-description)
+    - [What's the problem?](#whats-are-we-building)
+    - [The idea](#the-key-idea-and-its-advantages)
+    - [How can technology help?](#what-problems-are-being-solved)
+  - [The architecture](#the-architecture)
   - [Project roadmap](#project-roadmap)
-  - [Getting started](#getting-started)
+  - [Demo video](#demo-video)
   - [Live demo](#live-demo)
   - [Built with](#built-with)
-  - [Contributing](#contributing)
-  - [Authors](#authors)
 
 
 
@@ -27,7 +23,7 @@ But a change in this appraisal can be made if we practice segregating waste inst
 Especially in villages, there is no mechanism or service by the administration to recycle or collect trash. 
 As a result, many villages just innocently burn it or dump it in the open, despite numerous establishments and industries that take in and create recycled products. 
 
-####What we are building: 
+### What we are building: 
 
 Our goal is to reach every household, providing them with the service of making use of their recyclable waste. We are building a network that connects ordinary citizens to industries, by collecting and transporting recyclable waste to the establishments that require them.
 Users of our system include      the residents in the local region, the volunteers for the job and buyers/industries
@@ -57,6 +53,7 @@ Once every household builds up the habit of recycling, we are one step towards w
 
 ## The architecture
 
+![Alt text](https://i1.wp.com/blog.mi.hdm-stuttgart.de/wp-content/uploads/2019/08/architecture.jpeg?w=802&ssl=1)
 
 1. The user navigates to the site and logs in.
 2. They can creates an account with us if they havent done so already.
@@ -94,6 +91,9 @@ The project currently does the following things.
 - Supplied to project to a few friends and made a few changes based on their feedback
 - Deployed the final iteration application
  
+ We intended to expand in terms of both availability as well as items that we collect. As mentioned this is one of the string suits of our idea. 
+ We would also like to add android and ios support in the near future.Another area we like to concentrate is introducing customized support system for each collector
+ based on his daily routes as well as real time tracking of shipments.
 
 ## Demo video
 
