@@ -54,6 +54,10 @@ def home():
 def about():
     return render_template('about.html', title='About')
 
+@app.route("/account")
+def acount():
+    return render_template('account.html', title='Account')
+
 
 @app.route("/register", methods=['GET', 'POST'])
 def register():
@@ -81,4 +85,6 @@ def shutdown():
         client.disconnect()
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=port, debug=True)
+    app.run(debug=True)
+
+#host='0.0.0.0', port=port, 

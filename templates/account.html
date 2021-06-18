@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="content-section">
+        <div class="media">
+            <img class="rounded-circle account-img" src="../static/images/default.png" alt="Profile Picture">
+            <div class="media-body">
+                <h2 class="account-heading">Rahul Raj</h2>
+            </div>
+        </div>
+        <div class="content-section">
+            <form method="" action="" enctype="multipart/form-data">
+                <fieldset class="form-group">
+                    <legend class="border-bottom mb-4">Account Info</legend>
+                    <div class="form-group">
+                        <b>Name</b> : Rahul Raj
+                    </div> 
+                    <div class="form-group">
+                        <b>Email ID</b> : rahulraj01@gmail.com
+                    </div>
+                    <div class="form-group">
+                        <b>Roles</b> : Resident, Driver
+                    </div>
+                    <div class="form-group">
+                        <b>Location</b> : Thrissur
+                    </div>      
+                    <div class="form-group">
+                        <b>Mobile NO</b> : +91 7012577890
+                    </div> 
+                </fieldset>
+                <div class="form-group">
+                    <button class="btn btn-outline-info"> 
+                        Update Profile
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+{% endblock content %}
