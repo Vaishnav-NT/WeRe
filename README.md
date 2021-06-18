@@ -20,14 +20,39 @@
 ## Short description
 
 ### What's the problem?
+  In India, 77% of waste is disposed of in open dumps, 18% is composted and just 5% is recycled. Among the 77%, a certain percentage of the waste is recyclable but is mixed with common trash. We are currently facing the crisis of landfill overflow and increasing waste production. 
+But a change in this appraisal can be made if we practice segregating waste instead of discharging mixed waste.
+Especially in villages, there is no mechanism or service by the administration to recycle or collect trash. 
+As a result, many villages just innocently burn it or dump it in the open, despite numerous establishments and industries that take in and create recycled products. 
+
+### What we are building: 
+
+Our goal is to reach every household, providing them with the service of making use of their recyclable waste. We are building a network that connects ordinary citizens to industries, by collecting and transporting recyclable waste to the establishments that require them.
+Users of our system include      the residents in the local region, the volunteers for the job and buyers/industries.
+
+### Role of residential users -
+  The residents of the locality must register themselves through the website. They are obliged to separate recyclable wastes such as paper, plastic, and textiles. Volunteers/collectors shall set a limit on the amount of waste they can handle. Once that limit is reached in a household, the user can send an alert message to the collector.
 
 
-### How can technology help?
+### Role of Collectors/Volunteers/Drivers -
+  Collectors/volunteers of a particular region are informed about the status of each household. Our main intention is to offer these duties to the local women organizations (such as ‘Kudumbashree’ in Kerala) to collaborate with women to take a stand in saving our environment.
+Also since India is behind on part-time job culture, students of age 16 and above can volunteer in the collection process. 
+Women are also encouraged to take on transportation duties from the assigned locality to the industries.
+Working hours and regions of action shall be flexible and friendly to the volunteers. 
+
+### Buyers -
+  These involve the establishments that work on creating recycled products. Heaps of segregated waste are transported from localities to these industries. 
 
 
-### The idea
+### What problems are being solved:
 
-It's imperative that learning and creating can continue when educational institutions have to shift the way they teach in times of crises, such as the COVID-19 pandemic. Providing a set of open source tools, backed by IBM Cloud and Watson Services, will enable educators to more easily make content available for their students.
+People now have a medium to reduce the amount of wastage they produce and burn on a daily basis. Recyclable wastes are put to use. Overflowing landfills are avoided.
+Women are given job opportunities and they help in sustaining the environment. Young adults can take action on recycling and have an opportunity to earn via part-time jobs.
+Once every household builds up the habit of recycling, we are one step towards waste-reduction and tackling climate change.
+
+
+### The key idea
+
 
 ## Demo video
 
