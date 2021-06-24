@@ -42,7 +42,7 @@ Working hours and regions of action shall be flexible and friendly to the volunt
   These involve the establishments that work on creating recycled products. Heaps of segregated waste are transported from localities to these industries. 
 
 ## The key idea and its advantages
-  We have come up with a platform where people could get rid of recyclable waste hassle free and also provide What we would like to acheive through this is to create a self sustaining platform that would be benificial to both the users directly as well as help save the enviornment at the same time. A model like this gives us many advantages like lessen the need to set up infrastructure and handle  logistics and gives us the power to expand freely and efficeintly in a manner which is not possible for many.It also offers the customer a great degree of felxibilty in almost every aspect you can think of, be it collection or delivery.We want these process to be carried out as a part of their normal routine without consuming any additional resources or time. That is where the real strength of our approach lies.
+  We have come up with a platform where people can get rid of the recyclable waste in their house with ease.What we would like to acheive through this is to create a self-sustaining platform that would be benificial to the users directly as well as take a step towards saving the enviornment also. A model like the one we propose has many advantages like reducing the need to set up infrastructure and handle logistics .This in turn gives us the power to expand freely and efficeintly in a manner which is not possible for any other organization.It also offers the customer a great degree of felxibilty in almost every aspect they can think of, be it collection or delivery.We want these processes to be carried out as a part of their normal ddaily routine without consuming any additional time or resources. That is where the real strength of our approach lies.
   
 ### What problems are being solved:
 
@@ -57,8 +57,8 @@ Once every household builds up the habit of recycling, we are one step towards w
 1. The user navigates to the site and logs in.
 2. They can creates an account with us if they havent done so already.
 3. The user selects the type of material and clicks on raise pickup.
-4. This information is provided to volunteers nearby who collects it.
-5. The local voluteers can raise then pickup when they have sufficient items.
+4. This information is given provided to volunteers nearby, who then collects it.
+5. The local voluteers can then raise pickup when they have sufficient items.
 6. Volunteers registered as driver to haul shipments would then come collect this and take it to recycling centers directly.
 
 *All users would be able to earn a small amount for thier efforts to save earth
@@ -71,7 +71,7 @@ The project currently does the following things.
 - A user(residents) could sell the recyclable waste they have hassle free with no work whatsoever
 - A user(mainly college students and local women organization) could volunteer to help in 
   getting the items from house to plants and earn an income in doing so
-- A user(Recycling companies) coild also buys these 
+- A user(Recycling companies) could also buy these 
 
 *We currently take plastics and old garments
 
