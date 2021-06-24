@@ -90,7 +90,7 @@ The project currently does the following things.
 - Supplied to project to a few friends and made a few changes based on their feedback
 - Deployed the final iteration application
  
- We intended to expand in terms of both availability as well as items that we collect. As mentioned this is one of the string suits of our idea. 
+ We intend to expand in terms of both availability as well as items that we collect. As mentioned this is one of the string suits of our idea. 
  We would also like to add android and ios support in the near future.Another area we like to concentrate is introducing customized support system for each collector
  based on his daily routes as well as real time tracking of shipments.
 
